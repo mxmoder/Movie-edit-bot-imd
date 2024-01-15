@@ -33,6 +33,8 @@ async def start(client, message):
                     InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/+Az_CHIVozrVjMWI1"),
                     InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url='https://telegram.me/hd_telegram_movies')
                 ],[
+                    InlineKeyboardButton('REQUEST MOVIE CHANNEL', url='https://t.me/+PLWg_EtJG8UwN2Y1')
+                ],[  
                     InlineKeyboardButton('Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -158,7 +160,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
+                                InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK),
                                 InlineKeyboardButton('REQUEST MOVIE CHANNEL', url='https://t.me/+PLWg_EtJG8UwN2Y1)
                             ],[
                                 InlineKeyboardButton('', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
@@ -177,8 +179,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url='https://telegram.me/hd_telegram_movies'),
+                          InlineKeyboardButton('REQUEST MOVIE CHANNEL', url='https://t.me/+PLWg_EtJG8UwN2Y1)
                        ],[ 
                           InlineKeyboardButton('', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
@@ -334,8 +336,8 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                      InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK),
+                      InlineKeyboardButton('REQUEST MOVIE CHANNEL', url='https://t.me/+PLWg_EtJG8UwN2Y1)
                    ],[
                       InlineKeyboardButton('', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
 
@@ -457,8 +459,8 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+              InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK),
+              InlineKeyboardButton('REQUEST MOVIE CHANNEL', url='https://t.me/+PLWg_EtJG8UwN2Y1)
            ],[
               InlineKeyboardButton('', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
              ]
