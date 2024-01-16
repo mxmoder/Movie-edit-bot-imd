@@ -108,7 +108,7 @@ async def start(client, message):
                     InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=CHNL_LNK),
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('REQUEST MOVIE CHANNEL', url='https://t.me/+PLWg_EtJG8UwN2Y1)
+                    InlineKeyboardButton('REQUEST MOVIE CHANNEL', url='https://t.me/+PLWg_EtJG8UwN2Y1')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -238,7 +238,6 @@ async def start(client, message):
                     continue
             await asyncio.sleep(1) 
         return await sts.delete()
-
     elif data.split("-", 1)[0] == "verify":
         userid = data.split("-", 2)[1]
         token = data.split("-", 3)[2]
@@ -945,7 +944,7 @@ async def deletemultiplefiles(bot, message):
     #await asyncio.sleep(5)
     btn = [[
        InlineKeyboardButton("Yes, Continue !", callback_data=f"killfilesdq#{keyword}")
-       ],[
+   ],[
        InlineKeyboardButton("No, Abort operation !", callback_data="close_data")
     ]]
     await message.reply_text(
