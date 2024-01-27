@@ -1976,8 +1976,9 @@ async def auto_filter(client, msg, spoll=False):
             settings = await get_settings(message.chat.id)
             if not files:
                 await client.send_message(req_channel, f"#REQUESTERS_LOGS \n\n**CONTENT NAME:**`{search}`\n**REQUESTED BY :** {message.from_user.first_name}\n**USER ID :**{message.from_user.id}", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🌺 Mark as Done 🏵️", callback_data="close_data")]]))
-                await message.reply_text(text=f"Hello **{message.from_user.first_name}** 😎. \n\n  `{search}` movie will be uploaded some time \n\n Join the UPCOMING MOVIE channel given below and keep notification \n\n ❤️Thank You❤️ <a href='https://telegram.me/hd_telegram_movies'>UPCOMING MOVIE</a> ")
-                await m.delete()
+                l = await message.reply_text(text=f"Hello **{message.from_user.first_name}** 😎. \n\n  `{search}` movie will be uploaded some time \n\n Join the UPCOMING MOVIE channel given below and keep notification \n\n ❤️Thank You❤️ <a href='https://telegram.me/hd_telegram_movies'>UPCOMING MOVIE</a> ")
+                await asyncio.sleep(20)
+                await l.delete()
                 if settings["spell_check"]:
                     return await advantage_spell_chok(client, msg)
                 else:
