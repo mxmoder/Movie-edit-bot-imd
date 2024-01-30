@@ -140,11 +140,11 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton('‼️ **HOW TO DOWNLOAD MOVIE** ‼️', url="https://t.me/mxmoder_video_download")
+            InlineKeyboardButton('‼️ HOW TO DOWNLOAD MOVIE ‼️', url="https://t.me/mxmoder_video_download")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥 **Movie**", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥 Movie", callback_data=f"sendfiles#{key}")
         ])
     else:
         btn = []
@@ -156,11 +156,11 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton('‼️ **HOW TO DOWNLOAD MOVIE** ‼️', url="https://t.me/mxmoder_video_download")
+            InlineKeyboardButton('‼️ HOW TO DOWNLOAD MOVIE ‼️', url="https://t.me/mxmoder_video_download")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥 **MOVIE**", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥 Movie", callback_data=f"sendfiles#{key}")
         ])
     try:
         if settings['max_btn']:
@@ -375,11 +375,11 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton('‼️ **HOW TO DOWNLOAD MOVIE** ‼️', url="https://t.me/mxmoder_video_download")
+            InlineKeyboardButton('‼️ HOW TO DOWNLOAD MOVIE ‼️', url="https://t.me/mxmoder_video_download")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥 **MOVIE**", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥 Movie", callback_data=f"sendfiles#{key}")
         ])
     else:
         btn = []
@@ -391,11 +391,11 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton('‼️ **HOW TO DOWNLOAD MOVIE** ‼️', url="https://t.me/mxmoder_video_download")
+            InlineKeyboardButton('‼️ HOW TO DOWNLOAD MOVIE ‼️', url="https://t.me/mxmoder_video_download")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥 **MOVIE**", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥 Movie", callback_data=f"sendfiles#{key}")
         ])
 
     if offset != "":
@@ -573,11 +573,11 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton('‼️ **HOW TO DOWNLOAD MOVIE** ‼️', url="https://t.me/mxmoder_video_download")
+            InlineKeyboardButton('‼️ HOW TO DOWNLOAD MOVIE ‼️', url="https://t.me/mxmoder_video_download")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥 **MOVIE**", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥 MOVIE", callback_data=f"sendfiles#{key}")
         ])
         
     offset = 0
@@ -2030,11 +2030,11 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton('‼️ **HOW TO DOWNLOAD MOVIE** ‼️', url="https://t.me/mxmoder_video_download")
+            InlineKeyboardButton('‼️ HOW TO DOWNLOAD MOVIE ‼️', url="https://t.me/mxmoder_video_download")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥 **MOVIE**", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥 MOVIE", callback_data=f"sendfiles#{key}")
         ])
     else:
         btn = []
@@ -2046,11 +2046,11 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton('‼️ **HOW TO DOWNLOAD MOVIE** ‼️', url="https://t.me/mxmoder_video_download")
+            InlineKeyboardButton('‼️ HOW TO DOWNLOAD MOVIE ‼️', url="https://t.me/mxmoder_video_download")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥 **MOVIE**", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥 MOVIE", callback_data=f"sendfiles#{key}")
         ])
     if offset != "":
         req = message.from_user.id if message.from_user else 0
