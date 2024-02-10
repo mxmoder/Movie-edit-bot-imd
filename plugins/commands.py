@@ -322,7 +322,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue !</b>",
+                    text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 16 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ ! /nआप verified नहीं हैं ! \nकृपया जारी रखने के लिए verify करें ताकि आप अब से 16 घंटे तक unlimited फिल्मों  प्राप्त कर सकें</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -386,7 +386,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue !</b>",
+                    text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 16 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ ! /nआप verified नहीं हैं ! \nकृपया जारी रखने के लिए verify करें ताकि आप अब से 16 घंटे तक unlimited फिल्मों  प्राप्त कर सकें</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -445,7 +445,7 @@ async def start(client, message):
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b>You are not verified !\nKindly verify to continue !</b>",
+            text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 16 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ ! /nआप verified नहीं हैं ! \nकृपया जारी रखने के लिए verify करें ताकि आप अब से 16 घंटे तक unlimited फिल्मों  प्राप्त कर सकें</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
