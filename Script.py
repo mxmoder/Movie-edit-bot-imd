@@ -213,10 +213,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 नोट :- अपना पसंदीदा <a href={url}>`{title}`</a>
  फिल्म का नाम 𝐂𝐨𝐦𝐦𝐞𝐧𝐭 𝐁𝐨𝐱 में लिखे ! 👇
 ➖➖➖➖➖➖➖➖➖➖➖
-buttons = [[
-                    InlineKeyboardButton('𝐂𝐨𝐦𝐦𝐞𝐧𝐭 𝐁𝐨𝐱', url="https://t.me/+PLWg_EtJG8UwN2Y1"),
-                    InlineKeyboardButton('🤔 𝐇𝐨𝐰 𝐭𝐨 𝐦𝐨𝐯𝐞 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 🤔', url='https://t.me/mxmoder_video_download')
-                    ]]"""
+reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('𝐂𝐨𝐦𝐦𝐞𝐧𝐭 𝐁𝐨𝐱', url='https://telegram.me/hd_telegram_movies')]])"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
