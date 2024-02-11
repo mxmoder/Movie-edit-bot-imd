@@ -207,7 +207,19 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 <b>🏷 Title</b>: <a href={url}>`{title}`</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a>/10</b>"""
+🌟 Rating: <a href={url}/ratings>{rating}</a>/10</b>
+
+➖➖➖➖➖➖➖➖➖➖➖
+📥 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙇𝙞𝙣𝙠 📥   
+नोट :- अपना पसंदीदा <a href={url}>'{title'}</a>
+ फिल्म का नाम 𝐂𝐨𝐦𝐦𝐞𝐧𝐭 𝐁𝐨𝐱 में लिखे ! 👇
+➖➖➖➖➖➖➖➖➖➖➖
+reply_markup=InlineKeyboardMarkup(
+                        [
+                            [
+                                InlineKeyboardButton('𝐂𝐨𝐦𝐦𝐞𝐧𝐭 𝐁𝐨𝐱 ', url=https://t.me/+PLWg_EtJG8UwN2Y1),
+                                InlineKeyboardButton('🤔 𝐇𝐨𝐰 𝐭𝐨 𝐦𝐨𝐯𝐞 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 🤔', url='https://t.me/mxmoder_video_download')
+                            )"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
