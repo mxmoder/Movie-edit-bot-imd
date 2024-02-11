@@ -201,12 +201,13 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 <b> Size ⚙️: {file_size}</b>""" 
 
-    IMDB_TEMPLATE_TXT = """
-<b>🏷 Title</b>: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+    IMDB_TEMPLATE = """<b>Qᴜᴇʀʏ: {query}</b>
 
+🏷 Tɪᴛʟᴇ: <a href={url}>{title}</a>
+🎭 Gᴇɴʀᴇꜱ: {genres}
+📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>
+🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10"""
+   
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
     
