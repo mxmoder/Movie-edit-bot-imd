@@ -251,7 +251,12 @@ async def start(client, message):
             await message.reply_text(
                 text=f"<b>Hey {message.from_user.mention}, You are successfully verified !\nNow you have unlimited access for all movies till today midnight.</b>",
                 protect_content=True
+                reply_markup=InlineKeyboardMarkup(btn)
             )
+             return
+            btn = [[
+                InlineKeyboardButton("Get File", url=f"https://telegram.me/{temp.U_NAME}?start=files_{fileid}")
+            ]]
             await verify_user(client, userid, token)
         else:
             return await message.reply_text(
