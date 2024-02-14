@@ -248,9 +248,6 @@ async def start(client, message):
             )
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
-
-        is_valid = await check_token(client, userid, token)
-        if is_valid == True:
             await message.reply_text(
                 text=f"<b>Hey {message.from_user.mention}, You are successfully verified !\nNow you have unlimited access for all movies till today midnight.</b>" ,reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Get File', url='https://telegram.me/{temp.U_NAME}?start=files_{fileid}')]]))
             await verify_user(client, userid, token)
