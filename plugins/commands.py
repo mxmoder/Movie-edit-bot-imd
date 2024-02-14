@@ -317,7 +317,7 @@ async def start(client, message):
                 f_caption = f"{' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files1.file_name.split()))}"
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
-                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
+                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
                     InlineKeyboardButton("⚡ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғɪᴇᴅ ⚡",url='https://t.me/mxmoder_video_download')
                    ]]
                 await message.reply_text(
@@ -382,7 +382,7 @@ async def start(client, message):
         try:
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
-                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
+                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
                     InlineKeyboardButton("⚡ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғɪᴇᴅ ⚡",url='https://t.me/mxmoder_video_download')
                    ]]
                 await message.reply_text(
@@ -442,7 +442,7 @@ async def start(client, message):
         f_caption = f"@mxmoder  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         btn = [[
-            InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
+            InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
             InlineKeyboardButton("⚡ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғɪᴇᴅ ⚡",url='https://t.me/mxmoder_video_download')
          ]]
         await message.reply_text(
